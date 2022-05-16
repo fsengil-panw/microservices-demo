@@ -54,11 +54,11 @@ resource "aws_security_group" "k8s-security-group" {
     cidr_blocks = ["0.0.0.0/0"]
   }
   tags = {
-    git_commit           = "b34877c6e8b3779fae32c3274abd1a42f62d4051"
+    git_commit           = "b58d4547cb4a3065ae258213a2bf616816bb2ff0"
     git_file             = "deploy/kubernetes/terraform/main.tf"
-    git_last_modified_at = "2016-12-16 10:02:19"
+    git_last_modified_at = "2017-03-06 12:58:48"
     git_last_modified_by = "alex.giurgiu@gmail.com"
-    git_modifiers        = "alex.giurgiu/vishal"
+    git_modifiers        = "alex.giurgiu/jasonrichardsmith/vishal"
     git_org              = "fsengil-panw"
     git_repo             = "microservices-demo"
     yor_trace            = "ffc3f7e8-151b-4f58-b77a-fc515fd56d84"
@@ -98,7 +98,7 @@ resource "aws_instance" "ci-sockshop-k8s-master" {
     git_file             = "deploy/kubernetes/terraform/main.tf"
     git_last_modified_at = "2017-02-02 09:55:42"
     git_last_modified_by = "alex.giurgiu@gmail.com"
-    git_modifiers        = "alex.giurgiu/vishal"
+    git_modifiers        = "alex.giurgiu/vishal/vlal"
     git_org              = "fsengil-panw"
     git_repo             = "microservices-demo"
     yor_trace            = "c3a99430-3082-4764-9424-ba09789f9270"
@@ -131,9 +131,9 @@ resource "aws_instance" "ci-sockshop-k8s-node" {
     ]
   }
   tags = {
-    git_commit           = "f8b4615f8849566e87fd2147c392337dc38a321a"
+    git_commit           = "b58d4547cb4a3065ae258213a2bf616816bb2ff0"
     git_file             = "deploy/kubernetes/terraform/main.tf"
-    git_last_modified_at = "2017-02-02 09:55:42"
+    git_last_modified_at = "2017-03-06 12:58:48"
     git_last_modified_by = "alex.giurgiu@gmail.com"
     git_modifiers        = "alex.giurgiu/vishal"
     git_org              = "fsengil-panw"
@@ -167,7 +167,7 @@ resource "aws_elb" "ci-sockshop-k8s-elb" {
     git_file             = "deploy/kubernetes/terraform/main.tf"
     git_last_modified_at = "2017-02-08 17:51:07"
     git_last_modified_by = "alex.giurgiu@gmail.com"
-    git_modifiers        = "alex.giurgiu"
+    git_modifiers        = "alex.giurgiu/jasonrichardsmith/vishal"
     git_org              = "fsengil-panw"
     git_repo             = "microservices-demo"
     yor_trace            = "8de84023-7883-42a8-b0a4-a79d7eaa4222"

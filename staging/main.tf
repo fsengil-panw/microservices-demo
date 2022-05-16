@@ -77,11 +77,11 @@ resource "aws_instance" "k8s-node" {
   }
 
   tags = {
-    git_commit           = "ed1fed30e987977d5e6fd439fb309239bd364f64"
+    git_commit           = "3ed133436e7787073d59fe519782eb2992bf8c3d"
     git_file             = "staging/main.tf"
-    git_last_modified_at = "2016-11-01 09:21:37"
-    git_last_modified_by = "thijs.schnitger@container-solutions.com"
-    git_modifiers        = "thijs.schnitger"
+    git_last_modified_at = "2017-05-15 12:10:51"
+    git_last_modified_by = "vishal.lal@container-solutions.com"
+    git_modifiers        = "alex.giurgiu/thijs.schnitger/vishal.lal"
     git_org              = "fsengil-panw"
     git_repo             = "microservices-demo"
     yor_trace            = "84f24d43-4e3a-4159-86ab-46f46b83acd5"
@@ -133,11 +133,11 @@ resource "aws_instance" "k8s-master" {
     command = "scp -i ${var.private_key_file} -o StrictHostKeyChecking=no ubuntu@${self.private_ip}:~/config ~/.kube/"
   }
   tags = {
-    git_commit           = "ed1fed30e987977d5e6fd439fb309239bd364f64"
+    git_commit           = "3ed133436e7787073d59fe519782eb2992bf8c3d"
     git_file             = "staging/main.tf"
-    git_last_modified_at = "2016-11-01 09:21:37"
-    git_last_modified_by = "thijs.schnitger@container-solutions.com"
-    git_modifiers        = "thijs.schnitger"
+    git_last_modified_at = "2017-05-15 12:10:51"
+    git_last_modified_by = "vishal.lal@container-solutions.com"
+    git_modifiers        = "alex.giurgiu/thijs.schnitger/vishal.lal/vlal"
     git_org              = "fsengil-panw"
     git_repo             = "microservices-demo"
     yor_trace            = "e9735f94-334e-450b-8a11-30b19c07aecf"
